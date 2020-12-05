@@ -25,7 +25,7 @@ app.post('/', async (req, res) => {
     console.log(`Error: ${ex}`);
   }
   res.set('Content-Type', 'text/plain');
-  res.send('\n\nOK\n\n');
+  res.send('\n\n\nOK\n\n\n');
 })
 
 function decodeBase64Json(data) {
